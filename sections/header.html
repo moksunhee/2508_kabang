@@ -605,6 +605,19 @@ header .global_logo:hover >img{
         $this.addClass('rotate');
       }
     });
+
+    $(window).click(function(event){
+
+      if(!$(event.target).closest('.dropBtn').length){
+        $('.dropdown_content').removeClass('is_active');
+        $('.dropBtn').removeClass('rotate');
+      }
+    });
+
+    $('header .menu_box > ul > li').mouseenter(function(){
+        $('.dropdown_content').removeClass('is_active');
+        $('.dropBtn').removeClass('rotate'); 
+    });
   </script>
 </body>
 </html>
