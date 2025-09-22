@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>카카오뱅크 모작</title>
+    <!-- 제이쿼리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="md_sec md_sec_1 con">
+      <div>
+        <div class="img-box">
+          <img src="/imgs/imgi_1_main-withdrawal.png" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="text_box">
+          <h3>
+          모바일로 더 손쉬운
+          <br>
+          계좌개설, 간편한 이체
+        </h3>
+
+        <p>
+          인증서, OTP 없이 계좌 개설이 간편합니다.
+          <br>
+          여러 건의 이체도 몇 번의 터치로 손쉽게 보낼 수 있습니다.
+        </p>
+
+        <div class="btn_box">
+          <a href="#">
+            카카오뱅크 입출금통장
+            <img src="/imgs/imgi_2_home_arr.png" alt="">
+          </a>
+        </div>
+        </div>
+      </div>
+    </section>
+    <div class="md_divider"></div>
+        <section class="md_sec md_sec_2 con">
+      <div></div>
+      <div></div>
+    </section>
+    <div class="md_divider"></div>
+    <section class="md_sec md_sec_3 con">
+      <div></div>
+      <div></div>
+    </section>
+    <div class="md_divider"></div>
+    <section class="md_sec md_sec_4 con">
+      <div></div>
+      <div></div>
+    </section>
+    <div class="md_divider"></div>
+    <section class="md_sec md_sec_5 con">
+      <div></div>
+      <div></div>
+    </section>
+    <div class="md_divider"></div>
+
+    <style>
+      /* 노말라이즈 */
+      body,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* 라이브러리 */
+      .border-red {
+        border: solid 5px red;
+      }
+
+      .border-black {
+        border: solid 5px black;
+      }
+
+      .border-blue {
+        border: solid 5px blue;
+      }
+
+      .border-green {
+        border: solid 5px green;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .flex-jc-c {
+        justify-content: center;
+      }
+
+      .flex-ai-c {
+        align-items: center;
+      }
+
+      .flex-as-c {
+        align-self: center;
+      }
+
+      .flex-grow-1 {
+        flex-grow: 1;
+      }
+
+      .block {
+        display: block;
+      }
+
+      .height-100p {
+        height: 100%;
+      }
+
+      .con {
+        margin-inline: auto;
+      }
+
+      .img-box > img {
+        width: 100%;
+        display: block;
+      }
+
+      .ico {
+        background-color: white;
+        width: 24px;
+        height: 24px;
+        display: block;
+        background-image: url(https://kakaobank.com/static/images/web/img_kabang_220615.png);
+      }
+
+      .relative {
+        position: relative;
+      }
+
+      /* 커스텀 */
+      .con-min-width {
+        min-width: 1080px;
+      }
+
+      .con {
+        width: 1080px;
+      }
+
+      ::selection {
+        background-color: #ffe400;
+      }
+
+      /* --------------- 중간 섹션 시작 --------------- */
+      /* 공통섹션시작 */
+      .md_sec {
+        min-height: 500px;
+        border: 10px solid black;
+        display: flex;
+      }
+
+      .md_sec > div:first-child {
+        width: 60%;
+      }
+
+      .md_sec > div:last-child {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+
+      }
+
+      .md_divider {
+        height: 32px;
+      }
+      /* 공통섹션끝 */
+
+      /* 섹션1 시작 */
+.md_sec .img-box {
+  width: 473px;
+}
+
+.md_sec .text_box h3{
+font-size: 40px;
+line-height: 1.25;
+margin: 0;
+}
+
+.md_sec .text_box p {
+  margin-top: 24px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #666;
+}
+
+.md_sec .text_box >.btn_box {
+  margin-top: 30px;
+}
+
+.md_sec .text_box >.btn_box > a {
+  display: block;
+  width: 258px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 50px;
+  color: #333;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.md_sec .text_box >.btn_box > a >img {
+  width: 6px;
+  height: 9px;
+  margin: 3px 0 0 8px;
+}
+
+
+      /* 섹션1 끝 */
+      /* --------------- 중간 섹션 끝 --------------- */
+    </style>
+  </body>
+</html>
