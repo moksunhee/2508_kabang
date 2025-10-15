@@ -26,7 +26,7 @@
               <li><a href="#">신용정보활용체제</a></li>
               <li><a href="#">전자서명인증업무준칙</a></li>
               <br />
-              <li><a href="#" class="bold">전자민원접수</a></li>
+              <li class="pd"><a href="#" class="bold">전자민원접수</a></li>
               <li><a href="#">보호금융상품등록부</a></li>
               <li><a href="#">상품공시실</a></li>
               <li><a href="#">경영공시</a></li>
@@ -134,7 +134,7 @@
       footer .box_1 > .menu_box > ul > li {
         display: inline-block;
         position: relative;
-        padding: 5px 10px;
+        padding: 4px 15px;
       }
 
       footer .box_1 > .menu_box > ul > li:not(:first-child)::after {
@@ -146,6 +146,13 @@
         top: 50%;
         transform: translateY(-50%);
         left: -2.5px;
+      }
+
+      footer .box_1 > .menu_box > ul > li:first-child {
+        padding-left: 0;
+      }
+      footer .box_1 > .menu_box > ul > li.pd {
+        margin-left: 14px;
       }
 
       /* 메인배너끝 */
