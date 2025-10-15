@@ -46,8 +46,37 @@
           </div>
         </div>
 
-        <div class="box_3">
-          
+        <div class="box_3 flex flex-ai-c">
+          <div class="license_01">
+            <a href="#" class="flex flex-ai-c">
+              <img src="/imgs/imgi_16_webaccessibility_250818.svg" alt="" />
+              <span> 웹 접근성 품질인증 </span>
+            </a>
+          </div>
+
+          <div class="license_02">
+            <a href="#" class="flex flex-ai-c">
+              <img src="/imgs/imgi_17_web_trust_seal.png" alt="" />
+              <span> 웹 트러스트 인증 </span>
+            </a>
+          </div>
+
+          <div class="flex-grow-1"></div>
+
+          <ul class="flex">
+            <li>
+              <a href="#"><span class="block ico_sns ico_facebook"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="block ico_sns ico_instargram"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="block ico_sns ico_youtube"></span></a>
+            </li>
+            <li>
+              <a href="#"><span class="block ico_sns ico_brunch"></span></a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
@@ -135,15 +164,30 @@
         background: #ffe400;
       }
 
-      /* 메인배너시작 */
+      /* 푸터시작 */
+
+      @font-face {
+        font-family: "KoPubWorldDotumMedium", sans-serif;
+        src: url(/font/KOPUBWORLD_TTF_FONTS-1/KoPubWorld_Dotum_Medium.ttf)
+          format("ttf");
+      }
+
+      @font-face {
+        font-family: "KoPubWorldDotumBold", sans-serif;
+        src: url(/font/KOPUBWORLD_TTF_FONTS-1/KoPubWorld_Dotum_Bold.ttf)
+          format("ttf");
+      }
+
       footer {
         background-color: #eee;
+        font-family: "KoPubWorldDotumMedium", sans-serif;
       }
 
       footer .box_1 {
         padding: 20px 0 16px;
         font-size: 11px;
         color: #666;
+        font-family: "KoPubWorldDotumBold", sans-serif;
       }
 
       footer .box_1 > .menu_box > ul > li {
@@ -194,6 +238,68 @@
         font-size: 11px;
       }
 
+      footer .box_3 {
+        padding: 12px 0 18px;
+        color: #666;
+      }
+
+      footer .box_3 .license_01 img {
+        width: 46px;
+      }
+
+      footer .box_3 .license_02 {
+        margin-left: 20px;
+      }
+
+      footer .box_3 .license_02 img {
+        width: 42px;
+      }
+
+      footer .box_3 .license_01 span,
+      footer .box_3 .license_02 span {
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+
+      footer .box_3 > ul > li > a {
+        width: 24px;
+        height: 24px;
+        display: block;
+      }
+
+      footer .box_3 > ul {
+        margin-right: 125px;
+      }
+
+      footer .box_3 > ul > li {
+        margin-left: 13px;
+      }
+
+      footer .box_3 > ul > li:nth-child(2) {
+        margin-left: 4px;
+      }
+
+      footer .box_3 > ul > li .ico_sns {
+        background: url(/imgs/imgi_24_ico_sns.png);
+        height: 100%;
+      }
+
+      footer .box_3 > ul > li .ico_facebook {
+        background-position: 0 -90px;
+      }
+
+      footer .box_3 > ul > li .ico_instargram {
+        background-position: -191px -138px;
+      }
+
+      footer .box_3 > ul > li .ico_youtube {
+        background-position: -90px -90px;
+      }
+
+      footer .box_3 > ul > li .ico_brunch {
+        background-position: -217px -138px;
+      }
 
       /* 메인배너끝 */
     </style>
